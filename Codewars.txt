@@ -1,0 +1,31 @@
+Codewars 문제 1)
+
+for i in range(len(a)):
+for j in range(len(b)):
+if a[i] == b[j]:
+a.remove[i]
+return a
+
+
+Codewars 문제 2) 
+
+i=0
+j=len(list)-1
+while(i<=j):
+i += 1
+j -= 1
+temp = list[j]
+list[just] = list[i]
+list[i] = temp
+return list
+
+Codewars 문제 3)
+
+def jadencase(str):
+s1 = str.split() # ['a', 'b', 'c']
+capwords = []
+for word in s1:
+caps = word.capitalize()
+capwords.append(caps) # ['This', 'Is', 'Shit']
+final_string = " ".join(capwords)
+print(final_string) # This Is Shit
