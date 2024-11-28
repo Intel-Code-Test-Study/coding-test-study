@@ -13,7 +13,6 @@
 
 # %%
 def is_prime(number):
-    # for i in range(2, n): X
     for i in range(2, number+1):
         if number+1 % i == 0:
             return False
