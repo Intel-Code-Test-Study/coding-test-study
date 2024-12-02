@@ -1,2 +1,2 @@
 --person table has name data
-select concat('Hello, ', name, ' how are you doing today?') as greeting from person;
+SELECT concat('Hello, ', name, ' how are you doing today?') as greeting FROM person;
