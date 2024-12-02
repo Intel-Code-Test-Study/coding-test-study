@@ -1,0 +1,20 @@
+"""
+연산 ⊕는 두 정수에 대한 연산으로 두 정수를 붙여서 쓴 값을 반환합니다. 예를 들면 다음과 같습니다.
+
+12 ⊕ 3 = 123
+3 ⊕ 12 = 312
+양의 정수 a와 b가 주어졌을 때, a ⊕ b와 b ⊕ a 중 더 큰 값을 return 하는 solution 함수를 완성해 주세요.
+
+단, a ⊕ b와 b ⊕ a가 같다면 a ⊕ b를 return 합니다.
+"""
+
+def solution(a, b):
+    # 숫자를 문자열로 변환 후 조합했다 근데 함수를 알면 더 편했을터...
+    
+    result1 = int(str(a) + str(b))
+    result2 = int(str(b) + str(a))  
+
+    if result1 > result2:
+        return result1
+    else:
+        return result2
