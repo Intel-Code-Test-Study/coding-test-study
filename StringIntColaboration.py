@@ -9,6 +9,7 @@
 """
 
 def solution(a, b):
+   
     # 숫자를 문자열로 변환 후 조합했다 근데 함수를 알면 더 편했을터...
     
     result1 = int(str(a) + str(b))
